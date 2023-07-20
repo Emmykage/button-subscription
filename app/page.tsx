@@ -45,7 +45,7 @@ const Home: React.FC = () => {
         
 
       
-       <div className='grid grid-cols-3 gap-10 max-w-4xl m-auto' >
+       <div className='grid grid-cols-1 md:grid-cols-3 gap-10 max-w-4xl m-auto px-2' >
           <div className='bg-white hover:shadow-lg p-6 rounded-lg border border-orange-500 transition ease-out duration-500'>
             <h2 className='font-bold text-2xl my-4 flex'><BsShieldExclamation  className='mr-2 w-8 h-8 text-orange-400 border-4 rounded-full p-1 border-orange-400'/> 
           <span>Basic</span>
