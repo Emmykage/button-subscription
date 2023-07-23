@@ -45,8 +45,9 @@ const Home: React.FC = () => {
         
 
       
-       <div className='grid grid-cols-1 md:grid-cols-3 gap-10 max-w-4xl m-auto px-2' >
-          <div className='bg-white hover:shadow-lg p-6 rounded-lg border border-orange-500 transition ease-out duration-500'>
+       <div className='grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl m-auto p-10 md:p-0' >
+        
+          <div className=' bg-white hover:shadow-lg p-6 rounded-lg border border-orange-500 transition ease-out duration-500'>
             <h2 className='font-bold text-2xl my-4 flex'><BsShieldExclamation  className='mr-2 w-8 h-8 text-orange-400 border-4 rounded-full p-1 border-orange-400'/> 
           <span>Basic</span>
  
@@ -60,10 +61,12 @@ const Home: React.FC = () => {
             <span className='block text-center font-bold text-2xl text-orange-500'>$2280</span>
             <p className='text-center text-sm my-3'>Annually: Save 15%</p>
             
-            <Button className='bg-orange-100 text-orange-600 font-bold w-full hover:border hover:border-orange-400 hover:bg-white'  onClick={showModal}> Purchase  </Button>
+            <Button href='https://buy.stripe.com/test_00g3f91Rg4Yr9moaEF' className='bg-orange-100 text-orange-600 font-bold w-full hover:border hover:border-orange-400 hover:bg-white'  onClick={showModal}> Purchase  </Button>
 
                         
           </div>
+
+
           <div className='bg-white hover:shadow-md p-6 transition ease-out duration-500 rounded-lg border  border-purple-500'>
             <h2 className='font-bold text-2xl my-4 flex'><BsRocketTakeoff  className='mr-2 w-8 h-8 text-purple-400 border-4 rounded-full p-1 border-purple-400'/> 
           <span>Advanced</span>
@@ -78,7 +81,7 @@ const Home: React.FC = () => {
             <span className='block text-center font-bold text-2xl text-purple-500'>$3780</span>
             <p className='text-center text-sm my-3'>Annually: Save 15%</p>
             
-            <Button className='bg-purple-100 text-purple-600 font-bold w-full hover:text-white hover:bg-white' onClick={showModal}> Purchase  </Button>
+            <Button href='https://buy.stripe.com/test_6oE5nheE276zdCE6oq' className='bg-purple-100 text-purple-600 font-bold w-full hover:text-white hover:bg-white' onClick={showModal}> Purchase  </Button>
 
                         
           </div>
@@ -96,7 +99,7 @@ const Home: React.FC = () => {
             <span className='block text-center font-bold text-2xl text-teal-500'>$6630</span>
             <p className='text-center text-sm my-3'>Annually: Save 15%</p>
             
-            <Button className='bg-teal-100 text-teal-600 font-bold w-full'  onClick={showModal}> Purchase  </Button>
+            <Button href='https://buy.stripe.com/test_dR6cPJ7bA8aD568cMP' className='bg-teal-100 text-teal-600 font-bold w-full'  onClick={showModal}> Purchase  </Button>
 
                         
           </div>
